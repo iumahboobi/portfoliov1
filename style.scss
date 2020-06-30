@@ -263,13 +263,26 @@
             margin: 40px 32px;
         }
         .para-format {
-            text-align: center;
+            text-align: justify;
+            margin: 28px auto;
+        }
+        .rect-box {
+            width: 100%;
+            padding: 20px 0px;
+            display: grid;
+            grid-gap: 24px;
         }
         .mobile-flex {
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin: 8px 16px;
+            margin: 8px 14px;
+        }
+        .padding-ex {
+            padding: 0;
+        }
+        .padding-ex p {
+            display: none;
         }
         .contact {
             padding: 12px 24px;
@@ -280,7 +293,10 @@
             display: grid;
             grid-template-rows: 1fr 1fr 1fr;
             grid-template-columns: 1fr;
-            grid-gap: 16px;
+            grid-gap: 36px;
+        }
+        .card-items-gap img {
+            height: 540px;
         }
         .contact-online {
             display: flex;
